@@ -1,0 +1,6 @@
+NUM=int(input("enter the no. for factorial "))
+FACT=1
+while NUM>0:
+    FACT*=NUM
+    NUM-=1
+print("the factorial of given no. is",FACT)
