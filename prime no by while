@@ -1,0 +1,12 @@
+num=int(input("Enter the no. to check prime "))
+count=0
+i=2
+while i<=num:
+    if num%i==0:
+        count+=1
+    i+=1
+if count>=3:
+    print("not prine no.")
+else:
+    print("prime")
+
