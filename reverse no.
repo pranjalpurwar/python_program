@@ -1,0 +1,2 @@
+num=input("enter the no. to reverse:-")
+print("reverse no. is",num[::-1])
